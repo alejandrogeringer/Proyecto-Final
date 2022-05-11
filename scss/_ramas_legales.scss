@@ -1,0 +1,147 @@
+
+.fa {
+    background-color: rgb(214, 214, 154);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+    .fam {
+        img{
+            margin: 20px 60px;
+            border-radius: 20px;
+            width: 360px;
+            height: 300px;
+        }
+    }
+    .fami {
+        width: 50%;
+        font-family: cursive;
+    }
+}
+.der {
+    background-color: rgb(214, 214, 154);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+    .dere {
+        img{
+            margin: 20px 60px;
+            border-radius: 20px;
+            width: 360px;
+            height: 300px;
+        }
+    }
+    .dere2 {
+        width: 50%;
+        font-family: cursive;
+    }
+}
+
+.de1 {
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .der1 {
+        img{
+            margin: 20px 60px;
+            border-radius: 20px;
+            width: 360px;
+            height: 300px;
+        }
+    }
+    .dere1 {
+        
+        width: 50%;
+        font-family: cursive;
+    }
+}
+.de3 {
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .der3 {
+        img{
+            margin: 20px 60px;
+            border-radius: 20px;
+            width: 360px;
+            height: 300px;
+        }
+    }
+    .dere3 {
+        
+        width: 50%;
+        font-family: cursive;
+    }
+}
+
+/*Ramas Legales*/
+
+@media screen and (max-width: 768px){
+
+    .fa {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .der {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    .de1 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    
+    .de3 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+        
+    }
+
+
+@media screen and (max-width: 576px){
+
+    .fa {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .der {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    .de1 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+    
+    .de3 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+        
+}

@@ -1,0 +1,109 @@
+.for {
+    display: flex;
+    justify-content: space-around;
+}
+.formacion {
+    margin: 20px;
+    width: 50%;
+    li {
+        font-family: cursive;
+    }
+}
+.organos {
+    margin: 20px;
+    li {
+        font-family: cursive;
+    }
+}
+.act {
+    background-color: rgb(214, 214, 154);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+        font-family: cursive;
+    }
+   
+}
+.actividades {
+    margin: 0px 20px;
+    width: 50%;
+
+}
+.pub {
+    background-color: rgb(214, 214, 154);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.conf {
+    img {
+        width: 550px;
+        height: 360px;
+    }
+}
+.publicaciones {
+    margin: 20px;
+    width: 50%;
+    li {
+        font-family: cursive;
+    }
+}
+.gestionaca {
+    p {
+        font-family: cursive;
+    }
+}
+.extension {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    p {
+        font-family: cursive;
+    }
+}
+
+/*Historial Academico*/
+
+@media screen and (max-width: 768px){
+    .for {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    .act {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .pub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .conf {
+        img {
+            width: 550px;
+            height: 360px;
+        }
+    }
+    
+    
+    .extension {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        p {
+            font-family: cursive;
+        }
+    }
+   
+}
+
+@media screen and (max-width: 576px){
+
+    
+   
+}
